@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900" role="img" aria-labelledby="title desc">
+<title id="title">The Alchemist inspired book cover</title>
+<desc id="desc">A shepherd silhouette stands before layered desert mountains under a glowing sun and a deep blue sky.</desc>
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#061c36"/>
+    <stop offset=".52" stop-color="#0b5274"/>
+    <stop offset="1" stop-color="#f5a34a"/>
+  </linearGradient>
+  <linearGradient id="mountain" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#123b60"/>
+    <stop offset="1" stop-color="#06182d"/>
+  </linearGradient>
+  <linearGradient id="sand" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#f7bd62"/>
+    <stop offset="1" stop-color="#b64d2c"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="900" fill="url(#sky)"/>
+<circle cx="440" cy="405" r="52" fill="#ffd36b"/>
+<circle cx="440" cy="405" r="72" fill="#ffd36b" opacity=".15"/>
+<text x="300" y="112" fill="#f7c65b" font-family="Georgia,serif" font-size="48" letter-spacing="5" text-anchor="middle">THE</text>
+<text x="300" y="174" fill="#f7c65b" font-family="Georgia,serif" font-size="56" letter-spacing="2" text-anchor="middle">ALCHEMIST</text>
+<path d="M0 570 L100 490 L180 535 L290 350 L390 510 L485 445 L600 540 L600 900 L0 900Z" fill="url(#mountain)"/>
+<path d="M290 350 L325 440 L290 425 L250 466 L180 535 L290 350Z" fill="#f4a34e"/>
+<path d="M0 650 L120 555 L230 620 L360 505 L470 600 L600 535 L600 900 L0 900Z" fill="#092744"/>
+<path d="M0 760 Q160 650 300 730 T600 700 L600 900 L0 900Z" fill="url(#sand)"/>
+<path d="M0 820 Q170 720 320 800 T600 770 L600 900 L0 900Z" fill="#102c45"/>
+<g fill="#06172b">
+  <circle cx="314" cy="698" r="10"/>
+  <path d="M307 710 L321 710 L326 756 L302 756Z"/>
+  <path d="M307 720 L286 741 L280 736 L300 713Z"/>
+  <path d="M319 720 L338 739 L333 744 L314 728Z"/>
+  <path d="M306 754 L300 785 L307 785 L316 756Z"/>
+  <path d="M318 754 L326 783 L333 781 L325 752Z"/>
+  <path d="M330 682 L330 754" stroke="#06172b" stroke-width="4" fill="none"/>
+</g>
+<text x="300" y="842" fill="#fff0d4" font-family="Georgia,serif" font-size="36" letter-spacing="3" text-anchor="middle">PAULO COELHO</text>
+<rect x="10" y="10" width="580" height="880" rx="12" fill="none" stroke="#f5e7c9" stroke-width="3" opacity=".75"/>
+</svg>
